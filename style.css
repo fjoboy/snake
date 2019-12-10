@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    display:flex;
+    flex-flow:column nowrap;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(7, 7, 29);
+}
+
+h1{
+    color: white;
+}
+
+#board{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.row{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.square{
+    width:25px;
+    height:25px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color:rgb(56, 70, 153);
+    transition: background-color 0.1s
+}
